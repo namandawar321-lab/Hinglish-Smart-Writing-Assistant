@@ -1,0 +1,47 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python bytecode and packaging
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Local model downloads, Hugging Face cache, and weights
+.cache/
+**/.cache/
+.huggingface/
+models/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+*.bin
+
+# Generated evaluation output, logs, and temp files
+results/
+*.log
+logs/
+*.tmp
+*.temp
+~$*
+
+# Gradio and editor clutter
+.gradio/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+secrets.json

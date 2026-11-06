@@ -1,0 +1,14 @@
+torch
+transformers
+sentencepiece
+accelerate
+gradio
+jiwer
+sacrebleu
+pandas
+bitsandbytes
+sacremoses
+indic-nlp-library
+einops
+# ai4bharat-transliteration needs fairseq, which does not build on this Windows setup.
+# IndicTransToolkit's current release needs Microsoft C++ Build Tools; vendor/ has a pure-Python port.
